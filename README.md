@@ -2,10 +2,18 @@
 
 **This repository is based on https://github.com/mandrasch/ddev-laravel-vite**
 
+Just a fresh installation of Laravel Breeze with Laravel Livewire v3.
+
 ## Local setup after clone
 
 ```
 ddev composer install && ddev npm install && ddev artisan key:generate
+```
+
+Run it:
+
+```
+ddev launch && ddev npm run dev
 ```
 
 ## How was this created?
@@ -85,5 +93,9 @@ export default defineConfig({
 });
 ```
 
+## Further resources
 
+- Connect with the DDEV community on [Discord](https://discord.gg/hCZFfAMc5k)
+- More experiments and info about DDEV + vite: https://my-ddev-lab.mandrasch.eu/
 
+Thanks to the DDEV maintainers and DDEV open source community! 💚
